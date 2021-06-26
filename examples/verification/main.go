@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/ahmdrz/goinsta"
 	"github.com/tcnksm/go-input"
+	"github.com/yuyunusov/goinsta"
 )
 
 func main() {
