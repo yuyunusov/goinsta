@@ -392,10 +392,10 @@ func (inst *Instagram) Login() error {
 		return err
 	}
 
-	err = inst.sendAdID()
-	if err != nil {
-		return err
-	}
+	//err = inst.sendAdID()
+	//if err != nil {
+	//	return err
+	//}
 
 	err = inst.contactPrefill()
 	if err != nil {
